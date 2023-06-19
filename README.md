@@ -21,16 +21,21 @@
 
 3. Создать директорию, переместить файл туда.
 
-             mkdir Final_control_work
+            mkdir Final_control_work
 
             mv "Друзья человека.txt" Final_control_work/
 
 5. Подключить дополнительный репозиторий MySQL. Установить любой пакет
 из этого репозитория.
 
+            sudo wget https://dev.mysql.com/get/mysql-apt-config_0.8.17-1_all.deb
+            sudo dpkg -i mysql-apt-config_0.8.17-1_all.deb
 
 6. Установить и удалить deb-пакет с помощью dpkg.
-
+wget http://ftp.us.debian.org/debian/pool/main/s/sl/sl_5.02-1_amd64.deb
+sudo dpkg -i sl_5.02-1_amd64.deb
+sl
+sudo dpkg -r sl
 
 7. Выложить историю команд в терминале ubuntu
 
