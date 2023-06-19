@@ -32,14 +32,16 @@
             sudo dpkg -i mysql-apt-config_0.8.17-1_all.deb
 
 6. Установить и удалить deb-пакет с помощью dpkg.
-wget http://ftp.us.debian.org/debian/pool/main/s/sl/sl_5.02-1_amd64.deb
-sudo dpkg -i sl_5.02-1_amd64.deb
-sl
-sudo dpkg -r sl
+
+            wget http://ftp.us.debian.org/debian/pool/main/s/sl/sl_5.02-1_amd64.deb
+            sudo dpkg -i sl_5.02-1_amd64.deb
+            sl
+            sudo dpkg -r sl
 
 7. Выложить историю команд в терминале ubuntu
 
- 
+![скрин выполненой работы](Screen/Homework5.png)
+
 8. Нарисовать диаграмму, в которой есть класс родительский класс, домашние животные и вьючные животные, в составы которых в случае домашних животных войдут классы: собаки, кошки, хомяки, а в класс вьючные животные войдут: Лошади, верблюды и ослы).
-cat > "Домашние животные.txt"
+
 ![скрин выполненой работы](Screen/Homework6.png)
