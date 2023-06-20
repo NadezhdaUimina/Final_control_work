@@ -39,7 +39,7 @@ CREATE TABLE `cats` (
 
 CREATE TABLE `hamsters` (
    id INT UNSIGNED NOT NULL AUTO_INCREMENT UNIQUE,
-  `name` VARCHAR(50) NOT NULL,
+  `name` VARCHAR(30) NOT NULL,
   `skills` VARCHAR(100) NOT NULL,
   `birth_date` DATE NOT NULL,
   `animal_class_id` INT UNSIGNED NOT NULL,
@@ -49,7 +49,7 @@ CREATE TABLE `hamsters` (
 
 CREATE TABLE `horses` (
    id INT UNSIGNED NOT NULL AUTO_INCREMENT UNIQUE,
-  `name` VARCHAR(50) NOT NULL,
+  `name` VARCHAR(30) NOT NULL,
   `skills` VARCHAR(100) NOT NULL,
   `birth_date` DATE NOT NULL,
   `animal_class_id` INT UNSIGNED NOT NULL,
@@ -59,7 +59,7 @@ CREATE TABLE `horses` (
 
 CREATE TABLE `camels` (
    id INT UNSIGNED NOT NULL AUTO_INCREMENT UNIQUE,
-  `name` VARCHAR(50) NOT NULL,
+  `name` VARCHAR(30) NOT NULL,
   `skills` VARCHAR(100) NOT NULL,
   `birth_date` DATE NOT NULL,
   `animal_class_id` INT UNSIGNED NOT NULL,
@@ -69,7 +69,7 @@ CREATE TABLE `camels` (
 
 CREATE TABLE `donkeys` (
    id INT UNSIGNED NOT NULL AUTO_INCREMENT UNIQUE,
-  `name` VARCHAR(50) NOT NULL,
+  `name` VARCHAR(30) NOT NULL,
   `skills` VARCHAR(100) NOT NULL,
   `birth_date` DATE NOT NULL,
   `animal_class_id` INT UNSIGNED NOT NULL,
